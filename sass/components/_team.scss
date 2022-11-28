@@ -1,0 +1,37 @@
+.team {
+  background-color: var(--team-background-color);
+
+  &__list {
+    @extend %list;
+    display: flex;
+    margin-top: 50px;
+    gap: 30px;
+  }
+
+  &__li {
+    background-color: var(--white);
+    box-shadow: 0px 1px 3px rgba(0, 0, 0, 0.12), 0px 1px 1px rgba(0, 0, 0, 0.14),
+      0px 2px 1px rgba(0, 0, 0, 0.2);
+    border-radius: 0px 0px 4px 4px;
+  }
+  &__title {
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 1.188;
+    text-align: center;
+    letter-spacing: 0.03em;
+    color: var(--title-text-color);
+  }
+  &__info {
+    padding: 30px 0;
+  }
+  &__text {
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 1.188;
+    text-align: center;
+    letter-spacing: 0.03em;
+    color: var(--primary-text-color);
+    margin-top: 10px;
+  }
+}
