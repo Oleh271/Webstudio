@@ -442,6 +442,23 @@
             </li>
           </ul>
         </div>
+        <div class="footer__input">
+          <h3 class="footer__title">Підпишіться на розсилку</h3>
+          <form action="#" method="post" target="_self" class="footer__form">
+            <input
+              type="email"
+              name="email"
+              id="user-email"
+              placeholder="E-mail"
+            />
+            <button type="submit" class="footer__btn">
+              Підписатися
+              <svg class="footer__icon-send" width="24px" height="24px">
+                <use href="./images/icons.svg#icon-send"></use>
+              </svg>
+            </button>
+          </form>
+        </div>
       </div>
     </footer>
 
@@ -452,6 +469,42 @@
             <use href="./images/icons.svg#icon-close"></use>
           </svg>
         </button>
+        <div class="modal__box">
+          <h3 class="modal__title">Залиште свої дані, ми вам передзвонимо</h3>
+          <form action="#" method="post" target="_self" class="modal__form">
+            <label for="modal-name" class="modal__ lines">Ім'я</label>
+            <div class="modal__input-box">
+              <svg class="modal__icon" width="18px" height="18px">
+                <use href="./images/icons.svg#icon-person"></use>
+              </svg>
+              <input type="text" name="name" id="modal-name" class="modal__input"/>
+            </div>
+            <label for="modal-tel" class="modal__ lines">Телефон</label>
+            <div class="modal__input-box">
+              <svg class="modal__icon" width="18px" height="18px">
+                <use href="./images/icons.svg#icon-phone"></use>
+              </svg>
+              <input type="tel" name="tel" id="modal-tel" class="modal__input"/>
+            </div>
+            <label for="modal-email" class="modal__ lines">Пошта</label>
+            <div class="modal__input-box">
+              <svg class="modal__icon" width="18px" height="18px">
+                <use href="./images/icons.svg#icon-email"></use>
+              </svg>
+              <input type="email" name="email" id="modal-email" class="modal__input"/>
+            </div>
+            <label for="modal-msg" class="modal__ lines">Коментар</label>
+            <div class="modal__input-box">
+              <textarea
+                name="msg"
+                id="modal-msg"
+                cols="30"
+                rows="10"
+                placeholder="Введіть текст"
+                class="modal__input"></textarea>
+            </div>
+          </form>
+        </div>
       </div>
     </div>
     <script src="./js/modal.js"></script>
