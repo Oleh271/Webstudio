@@ -15,7 +15,7 @@
     }
   }
   &__link {
-    @extend %list;
+    @extend %link;
 
     &:focus .project__info,
     &:hover .project__info {
