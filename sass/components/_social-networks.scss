@@ -9,7 +9,6 @@
     height: 44px; */
   }
   &__icon {
-    padding: 12px;
     fill: var(--icon-color);
     transition: color 0.25s;
   }
@@ -19,10 +18,11 @@
     display: flex;
     align-items: center;
     justify-content: center;
-    width: 100%;
-    height: 100%;
+    width: 44px;
+    height: 44px;
     border-radius: 50%;
-    transition: color 0.25s;
+    transition: color 0.25s, background-color 0.25s;
+    
 
     &:hover,
     &:focus {
@@ -61,8 +61,7 @@
   }
 
   &__icon {
-    padding: 12px;
-    fill: var(--white);
+     fill: var(--white);
     transition: color 0.25s;
   }
 
@@ -72,10 +71,10 @@
     display: flex;
     align-items: center;
     justify-content: center;
-    width: 100%;
-    height: 100%;
+    width: 44px;
+    height: 44px;
     border-radius: 50%;
-    transition: color 0.25s;
+    transition: color 0.25s, background-color 0.25s;
 
     &:hover,
     &:focus {
