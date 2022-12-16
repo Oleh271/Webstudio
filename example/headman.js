@@ -26,3 +26,6 @@ while (remainingLetters > 0) {
 
 alert(answerArray.join(' '));
 alert('Супер! Було загадано слово ' + word);
+
+
+

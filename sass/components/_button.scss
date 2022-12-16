@@ -1,14 +1,14 @@
 .hero__button {
-    border-radius: 4px;
-    border: 0;
-    background-color: var(--logo-color);
-    color: var(--white);
-    font-weight: 700;
-    font-size: 16px;
-    line-height: 1.875;
-    letter-spacing: 0.06em;
-    padding: 10px 32px;
-  }
+  border-radius: 4px;
+  border: 0;
+  background-color: var(--logo-color);
+  color: var(--white);
+  font-weight: 700;
+  font-size: 16px;
+  line-height: 1.875;
+  letter-spacing: 0.06em;
+  padding: 10px 32px;
+}
 .portfolio__button {
   padding: 6px 22px;
   font-style: normal;
@@ -45,6 +45,20 @@
   background-color: var(--white);
 
   &:hover {
-   fill: var(--logo-color);
+    fill: var(--logo-color);
   }
+}
+.modal__button {
+  display: flex;
+  border-radius: 4px;
+  border: 0;
+  background-color: var(--logo-color);
+  color: var(--white);
+  font-weight: 700;
+  font-size: 16px;
+  line-height: 1.875;
+  letter-spacing: 0.06em;
+  padding: 10px 52px;
+  margin: 30px auto;
+  box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.15);
 }
